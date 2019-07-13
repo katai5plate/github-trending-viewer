@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"],
+      "n/*": ["node_modules/*"]
+    },
+    "lib": ["es2015", "dom"],
+    "resolveJsonModule": true
+  }
+}
