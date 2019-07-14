@@ -31,7 +31,7 @@ const getUrlParams = () => {
   };
 };
 const setUrlParams = ({ language = undefined, since = 'daily' }) => {
-  location.href = `/?${stringify({ s: since, l: language })}`;
+  location.search = `?${stringify({ s: since, l: language })}`;
 };
 
 interface Actions {

@@ -1,0 +1,1 @@
+{"version":3,"sources":["languageColor.css"],"names":[],"mappings":"AAAA,gBACE,iBAAkB,CAClB,oBACF","file":"languageColor.ede1adbd.css","sourceRoot":"..\\src","sourcesContent":[".language-color {\n  border-radius: 50%;\n  display: inline-block;\n}\n"]}

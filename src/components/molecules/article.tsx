@@ -37,7 +37,7 @@ export default ({
         const langData = languages.filter(({ name }) => name === language)[0];
         if (langData === undefined) return;
         const { urlParam } = langData;
-        location.href = `/?l=${urlParam}`;
+        location.search = `?l=${urlParam}`;
       }}
     >
       <LanguageColor {...{ language, color, size: 10 }} />
